@@ -7,5 +7,5 @@ def find_min_value(array)
     end
     count += 1
   end
-  return max
+  return find_min
 end
