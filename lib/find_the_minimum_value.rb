@@ -1,9 +1,9 @@
 def find_min_value(array)
   count = 0
-  max = 0
+  find_min = 5
   while count < array.length do
-    if array[count] > max
-      max = array[count]
+    if array[count] < find_min
+      find_min = array[count]
     end
     count += 1
   end
