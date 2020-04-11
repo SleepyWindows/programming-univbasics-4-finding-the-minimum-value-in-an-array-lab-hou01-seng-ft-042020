@@ -1,3 +1,9 @@
 def find_min_value(array)
-  # Add your solution here
+  count = 0
+  max = []
+  while count< array.length do
+    if array[count] < array.length
+      max = array[count]
+    end
+  end
 end
